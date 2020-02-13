@@ -24,7 +24,7 @@
 
 /* Alessandra from here Add an active class to highlight the current page */
 .active {
-    background-color: #4CAF50;
+    background-color: skyblue;
     color: #fff; /* Red Green Blue */
 }
 

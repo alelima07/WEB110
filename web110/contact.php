@@ -28,15 +28,22 @@
     
      <div class="wrapper">
         <h2 class="subheader">Contact Alessandra</h2>
-        <?php
+       <?php
         /*
          * Below are 2 different forms to be re-used       
          * 
-         * Only use one at a time, comment out the other 1!       
+         * Only use one at a time, comment out the other!       
          *
          */
-        include 'includes/simple.php'; #demonstrates a simple contact form
-        //include 'includes/multiple.php';#demonstrates multiple form elements
+
+        include 'includes/contact_include.php'; #site keys & code here
+    
+        $toAddress = "alelima07@gmail.com";  //place your/your client's email address here
+        $toName = "Jaqueline Lima"; //place your client's name here
+        $website = "Contact Jaqueline Explorer";  //place NAME of your client's website
+
+        echo loadContact('simple.php');#demonstrates a simple contact form
+        //echo loadContact('multiple.php');#demonstrates multiple form elements
 
 	?>
        <p class="clear-recaptcha"></p>

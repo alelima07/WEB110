@@ -35,4 +35,9 @@
           border-right: 1px solid #ccc;
         }
         
+        form > div {
+         margin:1em;
+        }
+       
+
         /* end reCAPTCHA styles */
