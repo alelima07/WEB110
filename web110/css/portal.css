@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 html {
-    background-color: lightgray;
+    background-color: #e4c2c1;
     font-family: 'Quicksand', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
@@ -39,13 +39,13 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:lightcoral;
     text-decoration: none;
 }
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
+    background-color: lightcoral;
     text-decoration: none;
 }
 
