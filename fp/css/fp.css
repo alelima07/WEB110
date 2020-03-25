@@ -1,0 +1,193 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-color: #6daffe;
+}
+
+main {
+    background-color: #edf6ff;
+    width: 80%;
+    overflow: auto;
+    border: none;
+    margin: auto;
+    font-family: 'Helvetica','Arial', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.66667;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+     margin: 1em; /* Top Right Bottom Left (TRBL) */
+    text-align: justify;
+}
+
+.container {
+    width: 80%;
+    overflow: auto;
+    border: none;
+    margin: auto;
+}
+
+.container1{
+    height: 10em;
+    position: relative;
+}
+.container1 h1{
+    display: inline-block;
+    background: white;
+    font-size: 3em;
+    letter-spacing: 12px;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.logo {
+    margin-right: 0.5em;
+}
+
+.side {
+    padding: 2em;
+    text-align: center;
+    clear: both;
+    font-size: 16px;
+}
+img{
+    width: 100%;
+    border: 1px solid #000;
+}
+ul#fav-list li a {
+    line-height: 30px;
+}
+
+h1 a {
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 1em;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+dt {
+    font-weight: bold;
+    color: #d1a080;
+}
+
+a:hover {
+        color: #6daffe;
+    }
+
+h2, h3 {
+    color: black;
+}
+
+.container1  {
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    z-index: -999;
+    width: 100%;
+    overflow: auto;
+    border: none;
+}
+
+/* Left Column */
+section {
+    float: left;
+    width: 65%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+/* End Left Column */
+
+/* Right Column */
+aside {
+    float: right;
+    width: 34%;
+}
+/* End Right Column */
+
+.fullWidth {
+    width: 100%;
+}
+
+div.gallery {
+    text-align: center;
+}
+
+figure {
+    display: inline-block;
+    margin: 0;
+}
+
+/* Start Embed Resposively Styles */
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+} 
+.embed-container iframe { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+/* End Embed Resposively Styles */
+
+.embed-container.agenda-view {
+    display: none;
+}
+
+footer {
+    padding: 2em;
+    text-align: center;
+    clear: both;
+}
+
+/* Mobile Styles */
+
+@media all and (min-width:501px){
+    div.wrapper form{
+        margin-left:22.8px;
+}
+}
+
+@media all and (max-width: 600px) {
+    
+    main {
+        width: 100%;
+    }
+    
+    section {
+        float: none;
+        width: 100%;
+    }
+
+    aside {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media all and (max-width:860px){
+    /*Show Agenda View Calendar */
+    div.embed-container.agenda-view {
+        display: block;
+    }
+    
+    /* Hide Month View Calendar */
+    div.embed-container.month-view {
+        display: none;
+    }
+}
+/* End Mobile Styles */

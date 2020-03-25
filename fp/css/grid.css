@@ -1,0 +1,72 @@
+.continents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.continents h2 {
+    grid-column-start: span 2;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-size: 3em;
+    margin-bottom: 3%;
+    display: inline-block;
+}
+
+.continents img{
+    border-radius: 50%;
+    width: 70%;
+    height: auto;
+}
+
+.continents p{
+    background: white;
+    margin: auto;
+    max-width: 70%;
+    padding: 1em;
+    word-spacing: 0.5em;
+    margin-bottom: 10%;
+    font-size: 100%;
+    text-align: left;
+}
+
+.continents h2 {
+    font-weight: 700;
+    font-size: 200%;
+}
+
+.continents{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.continents h2{
+ grid-column-start: span 4;
+}
+
+/*iframe*/
+
+.blockquote {
+    max-width: 100px;
+}
+
+/*GALERY STYLING*/
+
+.galery-grid{
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+
+figure img{
+    display: block;
+  max-width: 100%;
+  height: auto;
+
+}
+
+.galery-grid{
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+    
